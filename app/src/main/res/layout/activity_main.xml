@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="ID :"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#120C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Enter Your Name Here"
+            android:id="@+id/EditTextId"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Name :"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#120C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Enter Your Name Here"
+            android:textStyle="bold"
+            android:id="@+id/EditTextName"
+            android:textSize="20sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Age :"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#120C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Enter Your Name Here"
+            android:id="@+id/EditTextAge"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Gender :"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#120C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Enter Your Name Here"
+            android:id="@+id/EditTextGender"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:text="Add Data"
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="Upadte Data"
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="Delete Data"
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
